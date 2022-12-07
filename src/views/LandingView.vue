@@ -834,7 +834,7 @@ export default {
           };
           // console.log(this.user)
           // this.user.phone = this.user.phone.split('-').join()
-          LandingService.create(data)
+          LandingService.create(data) 
             // 성공 / 실패 then
             // 성공하면 첫번째 매개변수 실행
             // 실패하면 두번째 매개변수 실행
